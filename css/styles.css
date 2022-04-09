@@ -4,29 +4,44 @@
   --accent-color: #2196f3;
   --secondary-text-color: #FFFFFF;
   --primery-bg-color:#e5e5e5;
+  --contacts-color: rgba(255, 255, 255, 0.6);
+  --third-bg-color:#2f303a;
 }
 
-body {
+body { 
   color: var(--primary-text-color);
-  background-color: var(--primery-bg-color)
+  background-color: var(--primery-bg-color);
+  font-family: Roboto, sans-serif;
   
 }
 /* основной цвет текста #212121; */
 /* вторичный цвет текста #757575; */
 /* третий цвет текста #FFFFFF */
+/* цвет контактов */
 
 /* белый кнопки #FFFFFF; */
 /* акцент кнопки #2196F3; */
 
 /* вторичный цвет фона  #F5F4FA; */
 /* основной цвет фона   #E5E5E5; */
+/* третий цвет фона #2f303a; */
 
 /* logo */
 .logotip {
+  font-family: Raleway;
   color: var(--primary-text-color);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1,2;
+  letter-spacing: 0.03em;
 }
 .logo {
+  font-family: Raleway;
   color: var(--accent-color);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1,2;
+  letter-spacing: 0.03em;
 }
 .logo:hover,
 .logo:focus {
@@ -41,6 +56,10 @@ body {
 /* site-naw */
 .list {
   list-style: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1,4;
+  letter-spacing: 0.02em;
 }
 
 .site-nav .link {
@@ -64,22 +83,34 @@ body {
     text-decoration: underline var(--accent-color);
 }
 
-}
+
 /* Hero */
 .hero {
   color: #ffffff;
   background-color: #2f303a;
 }
-
-/* section */
-.section-title {
-  color: var(--title-text-color);
+.hero-title{
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1,36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase
 }
+
 
 /* button */
 .button{
     color: var(--secondary-text-color);
     background-color: var(--accent-color);
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
 }
 
 .button.primary{
@@ -87,3 +118,66 @@ body {
     background-color: var(--accent-color);
 }
 
+/* section */
+.feature{
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.section-title {
+  color: var(--title-text-color);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1,7;
+  letter-spacing: 0.03em;
+}
+.team{
+font-weight: 700;
+font-size: 36px;
+line-height: 1,16;
+letter-spacing: 0.03em;
+}
+.team-card{
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1,18;
+  letter-spacing: 0.03em;
+}
+.speciality{
+  color: var(--title-text-color);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1,18;
+  letter-spacing: 0.03em;
+}
+/* footer */
+
+.footer-bg{
+  background-color: var(--third-bg-color);
+}
+
+.contact{
+list-style: none;
+
+}
+
+.adres{
+  color: var(--secondary-text-color);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+}
+
+.contact-list{
+color: var(--contacts-color);
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 1.7;
+letter-spacing: 0.03em;
+}
