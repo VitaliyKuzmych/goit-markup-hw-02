@@ -1,0 +1,87 @@
+:root {
+  --primary-text-color: #212121;
+  --title-text-color: #757575;
+  --accent-color: #2196f3;
+  --secondary-text-color: #FFFFFF;
+  --primery-bg-color:#e5e5e5;
+}
+
+body {
+  color: var(--primary-text-color);
+  background-color: var(--primery-bg-color)
+}
+/* основной цвет текста #212121; */
+/* вторичный цвет текста #757575; */
+/* третий цвет текста #FFFFFF */
+
+/* белый кнопки #FFFFFF; */
+/* акцент кнопки #2196F3; */
+
+/* вторичный цвет фона  #F5F4FA; */
+/* основной цвет фона   #E5E5E5; */
+
+/* logo */
+.logotip {
+  color: var(--primary-text-color);
+}
+.logo {
+  color: var(--accent-color);
+}
+.logo:hover,
+.logo:focus {
+  text-decoration: underline var(--accent-color);
+}
+
+.logotip:hover,
+.logotip:focus {
+  text-decoration: underline var(--accent-color);
+}
+
+/* site-naw */
+.list {
+  list-style: none;
+}
+
+.site-nav .link {
+  color: var(--primary-text-color);
+}
+.studia {
+  color: var(--accent-color);
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  text-decoration: underline var(--accent-color);
+}
+.imail{color: var(--accent-color);}
+.imail:hover,
+.imail:focus {
+  text-decoration: underline var(--accent-color);  
+}
+.telefon{color: var(--title-text-color);}
+.telefon:hover,
+.telefon:focus{
+    text-decoration: underline var(--accent-color);
+}
+
+}
+/* Hero */
+.hero {
+  color: #ffffff;
+  background-color: #2f303a;
+}
+
+/* section */
+.section-title {
+  color: var(--title-text-color);
+}
+
+/* button */
+.button{
+    color: var(--secondary-text-color);
+    background-color: var(--accent-color);
+}
+
+.button.primary{
+    color: var(--secondary-text-color);
+    background-color: var(--accent-color);
+}
