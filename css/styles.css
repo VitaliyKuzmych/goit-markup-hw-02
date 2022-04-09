@@ -9,6 +9,7 @@
 body {
   color: var(--primary-text-color);
   background-color: var(--primery-bg-color)
+  
 }
 /* основной цвет текста #212121; */
 /* вторичный цвет текста #757575; */
@@ -85,3 +86,4 @@ body {
     color: var(--secondary-text-color);
     background-color: var(--accent-color);
 }
+
