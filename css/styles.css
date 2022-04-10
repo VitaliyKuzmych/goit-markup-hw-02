@@ -27,7 +27,7 @@ body {
 /* третий цвет фона #2f303a; */
 
 /* logo */
-.logotip {
+.logo {
   font-family: Raleway;
   color: var(--primary-text-color);
   font-weight: 700;
@@ -35,23 +35,14 @@ body {
   line-height: 1,2;
   letter-spacing: 0.03em;
 }
-.logo {
-  font-family: Raleway;
+.logo-span {
   color: var(--accent-color);
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1,2;
-  letter-spacing: 0.03em;
 }
 .logo:hover,
 .logo:focus {
   text-decoration: underline var(--accent-color);
 }
 
-.logotip:hover,
-.logotip:focus {
-  text-decoration: underline var(--accent-color);
-}
 
 /* site-naw */
 .list {
@@ -72,22 +63,24 @@ body {
 .site-nav .link:focus {
   text-decoration: underline var(--accent-color);
 }
-.imail{color: var(--accent-color);}
-.imail:hover,
-.imail:focus {
-  text-decoration: underline var(--accent-color);  
+.imail{color: var(--accent-color);
 }
-.telefon{color: var(--title-text-color);}
+.imail:hover,
+.imail:focus{
+color:  var(--primary-text-color);
+}
+.telefon{color:var(--title-text-color);
+}
 .telefon:hover,
 .telefon:focus{
-    text-decoration: underline var(--accent-color);
+color:  var(--accent-color);
 }
 
 
 /* Hero */
 .hero {
-  color: #ffffff;
-  background-color: #2f303a;
+  color: var(--secondary-text-color)
+  background-color: var(--third-bg-color)
 }
 .hero-title{
   font-weight: 900;
@@ -155,13 +148,12 @@ letter-spacing: 0.03em;
 }
 /* footer */
 
-.footer-bg{
+.futer-bg{
   background-color: var(--third-bg-color);
 }
 
 .contact{
 list-style: none;
-
 }
 
 .adres{
@@ -172,6 +164,10 @@ list-style: none;
   line-height: 1.7;
   letter-spacing: 0.03em;
 }
+.adres:hover,
+.adres:focus{
+  text-decoration: underline var(--accent-color);
+}
 
 .contact-list{
 color: var(--contacts-color);
@@ -180,4 +176,8 @@ font-weight: 400;
 font-size: 14px;
 line-height: 1.7;
 letter-spacing: 0.03em;
+}
+.contact-list:hover,
+.contact-list:focus{
+ color:  var(--accent-color);
 }
