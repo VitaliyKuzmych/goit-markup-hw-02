@@ -79,8 +79,8 @@ color:  var(--accent-color);
 
 /* Hero */
 .hero {
-  color: var(--secondary-text-color)
-  background-color: var(--third-bg-color)
+  color: var(--secondary-text-color);
+  background-color: var(--third-bg-color);
 }
 .hero-title{
   font-weight: 900;
