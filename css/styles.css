@@ -29,6 +29,7 @@ body {
 /* logo */
 .logo {
   font-family: Raleway;
+  text-decoration: none;
   color: var(--primary-text-color);
   font-weight: 700;
   font-size: 26px;
@@ -54,6 +55,7 @@ body {
 }
 
 .site-nav .link {
+  text-decoration: none;
   color: var(--primary-text-color);
 }
 .studia {
@@ -63,13 +65,17 @@ body {
 .site-nav .link:focus {
   text-decoration: underline var(--accent-color);
 }
-.imail{color: var(--accent-color);
+.imail{
+  text-decoration: none;
+  color: var(--accent-color);
 }
 .imail:hover,
 .imail:focus{
 color:  var(--primary-text-color);
 }
-.telefon{color:var(--title-text-color);
+.telefon{
+  text-decoration: none;
+  color:var(--title-text-color);
 }
 .telefon:hover,
 .telefon:focus{
@@ -157,6 +163,7 @@ list-style: none;
 }
 
 .adres{
+  text-decoration: none;
   color: var(--secondary-text-color);
   font-style: normal;
   font-weight: 400;
@@ -170,6 +177,7 @@ list-style: none;
 }
 
 .contact-list{
+text-decoration: none;  
 color: var(--contacts-color);
 font-style: normal;
 font-weight: 400;
